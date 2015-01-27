@@ -21,6 +21,10 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        playerOneCount = 10;
+        playerTwoCount = 10;
+        playerThreeCount = 10;
+        playerFourCount = 10;
     }
 
     public void button(View v) {
